@@ -1,0 +1,753 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://depuradoramap</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>	
+    
+      <!--LATITUD
+      double lat_home = 41.380909 * M_PI / 180.0;  // rad
+	  double lon_home = 2.032132 * M_PI / 180.0;   // rad -->   
+      <include>
+      <name>Erobot</name>
+      <uri>model://oak_tree</uri>
+      <pose>-80 0 0  0 0 0</pose>
+    </include>
+      
+    <include>
+      <name>PisciPrimari2</name>
+      <uri>model://pisci</uri>
+      <pose>-30 15.0 0  0 0 0</pose>
+    </include>  
+    
+        <include>
+      <name>PisciPrimari3</name>
+      <uri>model://pisci</uri>
+      <pose>-30 -16.5 0  0 0 0</pose>
+    </include> 
+      
+    <include>
+      <name>PisciPrimari1</name>
+      <uri>model://pisci</uri>
+      <pose>-30 -0.74 0  0 0 0</pose>
+    </include>
+    
+      <include>
+      <name>Reactor1</name>
+      <uri>model://pisci</uri>
+      <pose>53.5 15.0 0  0 0 0</pose>
+    </include>  
+    
+      <include>
+      <name>Reactor2</name>
+      <uri>model://pisci</uri>
+      <pose>53.5 -16.5 0  0 0 0</pose>
+    </include> 
+      
+    <include>
+      <name>Reactor3</name>
+      <uri>model://pisci</uri>
+      <pose>53.5 -0.74 0  0 0 0</pose>
+    </include>
+    
+    <include>
+      <name>Reactor4</name>
+      <uri>model://pisci</uri>
+      <pose>53.5 -39.35 0  0 0 0</pose>
+    </include>
+    
+     <include>
+      <name>Reactor5</name>
+      <uri>model://pisci</uri>
+      <pose>53.5 -55.057 0  0 0 0</pose>
+    </include>
+    
+      <include>
+      <name>Reactor6</name>
+      <uri>model://pisci</uri>
+      <pose>53.5 -70.61 0  0 0 0</pose>
+    </include>
+    
+    <!--DECANTADOR-->
+     <include>
+      <name>Paso1</name>
+      <uri>model://Paso</uri>
+      <pose>-30.12 -8.92 0  0 0 0</pose>
+    </include>
+    
+    
+     <include>
+      <name>Paso2</name>
+      <uri>model://Paso</uri>
+      <pose>-30.12 6.83 0  0 0 0</pose>
+    </include>
+    
+    <!--REACTOR-->
+     <include>
+      <name>Paso3</name>
+      <uri>model://Paso</uri>
+      <pose>53.38 -8.92 0  0 0 0</pose>
+    </include>
+    
+    
+     <include>
+      <name>Paso4</name>
+      <uri>model://Paso</uri>
+      <pose>53.38 6.83 0  0 0 0</pose>
+    </include>
+    
+        
+     <include>
+      <name>Paso5</name>
+      <uri>model://Paso</uri>
+      <pose>53.38 -47.5 0  0 0 0</pose>
+    </include>
+    
+        
+     <include>
+      <name>Paso6</name>
+      <uri>model://Paso</uri>
+      <pose>53.38 -63.11 0  0 0 0</pose>
+    </include>
+
+	<!--DECANTADOR-->
+     <include>
+      <name>Barrera1</name>
+      <uri>model://Barrier</uri>
+      <pose>-30.12 22.2 0  0 0 0</pose>
+    </include>
+
+     <include>
+      <name>Barrera2</name>
+      <uri>model://Barrier</uri>
+      <pose>-30.12 -24.28 0  0 0 0</pose>
+    </include>  
+    
+    <!--REACTOR-->
+	 <include>
+      <name>Barrera3</name>
+      <uri>model://Barrier</uri>
+      <pose>53.38 22.2 0  0 0 0</pose>
+    </include>
+
+     <include>
+      <name>Barrera4</name>
+      <uri>model://Barrier</uri>
+      <pose>53.38 -24.28 0  0 0 0</pose>
+    </include>  
+    
+      <include>
+      <name>Barrera5</name>
+      <uri>model://Barrier</uri>
+      <pose>53.38 -32.16 0  0 0 0</pose>
+    </include>  
+      
+      <include>
+      <name>Barrera6</name>
+      <uri>model://Barrier</uri>
+      <pose>53.38 -78.20 0  0 0 0</pose>
+    </include>  
+      
+	<!--REACTOR-->
+     <include>
+      <name>Pozo1</name>
+      <uri>model://cosarara</uri>
+      <pose>31.9  -32.12 0 0 0 0</pose>
+    </include>  
+    
+         <include>
+      <name>Pozo2</name>
+      <uri>model://cosarara</uri>
+      <pose>37.6 -32.13 0  0 0 0</pose>
+    </include>  
+
+
+	 <!--VAPOR-->
+   <include>
+      <name>stream1</name>
+      <uri>model://stream2</uri>
+      <pose>117.5  -23.59 0 0 0 0</pose>
+    </include>  
+    
+         <include>
+      <name>stream2</name>
+      <uri>model://stream2</uri>
+      <pose>117.5 -8 0  0 0 0</pose>
+    </include>  
+
+   <include>
+      <name>stream3</name>
+      <uri>model://stream2</uri>
+      <pose>117.5  7.71 0 0 0 0</pose>
+    </include>  
+    
+         <include>
+      <name>stream4</name>
+      <uri>model://stream2</uri>
+      <pose>117.5 23.416 0  0 0 0</pose>
+    </include>  
+
+ <!--paso stream-->
+	 <include>
+      <name>PasoStream1</name>
+      <uri>model://Metalpaso</uri>
+      <pose>117.5 -16.04 0  0 0 0</pose>
+    </include>
+    
+    
+      <include>
+      <name>PasoStream2</name>
+      <uri>model://Metalpaso</uri>
+      <pose>117.5 -0.32 0  0 0 0</pose>
+    </include>
+    
+    
+	  <include>
+      <name>PasoStream3</name>
+      <uri>model://Metalpaso</uri>
+      <pose>117.5 15.36 0  0 0 0</pose>
+    </include>
+    
+      <include>
+      <name>PasoStream4</name>
+      <uri>model://Metalpaso</uri>
+      <pose>117.5 -8 0  0 0 0</pose>
+    </include>
+    
+      <include>
+      <name>PasoStream5</name>
+      <uri>model://Metalpaso</uri>
+      <pose>117.5 -23.59 0  0 0 0</pose>
+    </include>
+    
+          <include>
+      <name>PasoStream6</name>
+      <uri>model://Metalpaso</uri>
+      <pose>117.5 7.71 0  0 0 0</pose>
+    </include>
+    
+     <include>
+      <name>PasoStream6</name>
+      <uri>model://Metalpaso</uri>
+      <pose>117.5 23.416 0  0 0 0</pose>
+    </include>
+    
+      <include>
+      <name>BarreraStream</name>
+      <uri>model://Smallbarrier</uri>
+      <pose>117.5 30.6 0  0 0 0</pose>
+    </include>
+
+     <include>
+      <name>BarreraStream2</name>
+      <uri>model://Smallbarrier</uri>
+      <pose>117.5 -31.2 0  0 0 0</pose>
+    </include> 
+    
+    <!-- Agua Verde -->
+    
+     <include>
+      <name>conta1</name>
+      <uri>model://contaminated</uri>
+      <pose>154.5  -23.59 0 0 0 0</pose>
+    </include>  
+    
+         <include>
+      <name>contaminated2</name>
+      <uri>model://contaminated</uri>
+      <pose>154.5 -8 0  0 0 0</pose>
+    </include>  
+
+   <include>
+      <name>contaminated3</name>
+      <uri>model://contaminated</uri>
+      <pose>154.5  7.71 0 0 0 0</pose>
+    </include>  
+    
+         <include>
+      <name>contaminated4</name>
+      <uri>model://contaminated</uri>
+      <pose>154.5 23.416 0  0 0 0</pose>
+    </include>  
+
+
+	 <include>
+      <name>PasoStreamCont1</name>
+      <uri>model://Metalpaso</uri>
+      <pose>154.5 -16.04 0  0 0 0</pose>
+    </include>
+    
+    
+      <include>
+      <name>PasoStreaCont2</name>
+      <uri>model://Metalpaso</uri>
+      <pose>154.5 -0.32 0  0 0 0</pose>
+    </include>
+    
+    
+	  <include>
+      <name>PasoStreamCont3</name>
+      <uri>model://Metalpaso</uri>
+      <pose>154.5 15.36 0  0 0 0</pose>
+    </include>
+
+<!-- Agua Verde FIN -->
+
+<!-- DETALLES -->
+
+
+      <include>
+      <name>Gasometro</name>
+      <uri>model://gasometro</uri>
+      <pose>26.5 44 0  0 0 0</pose>
+    </include>  
+    
+    <include>
+      <name>Edificio1</name>
+      <uri>model://Edificio</uri>
+      <pose>60.7 38.15 0  0 0 0</pose>
+    </include> 
+    
+    
+	<include>
+      <name>Deposito</name>
+      <uri>model://deposito</uri>
+      <pose>-5.5 40 0  0 0 0</pose>
+    </include>  
+    
+      <include>
+      <name>Digestor1</name>
+      <uri>model://Digestor</uri>
+      <pose>-49 73 0  0 0 0</pose>
+    </include>  
+    
+      <include>
+      <name>Digestor2</name>
+      <uri>model://Digestor</uri>
+      <pose>-5 73 0  0 0 0</pose>
+    </include>  
+
+      <include>
+      <name>EdificioDigestor</name>
+      <uri>model://Edificio</uri>
+      <pose>-72.4 68.5 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>Casa</name>
+      <uri>model://casa</uri>
+      <pose>-26.85 63.67 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>Tanque</name>
+      <uri>model://water_tower</uri>
+      <pose>-67 39.4 0  0 0 0</pose>
+    </include>  
+    
+      <include>
+      <name>Casa34</name>
+      <uri>model://casita</uri>
+      <pose>-78.73 -51.44 0  0 0 0</pose>
+    </include>    
+
+  <!------------------CLARIFICADORES CENTRO----------------------------->
+      <include>
+      <name>CasaClarificador</name>
+      <uri>model://casa</uri>
+      <pose>-100.3 41.44 0  0 0 0</pose>
+    </include>   
+    
+      <include>
+      <name>Clarificador</name>
+      <uri>model://clarificador</uri>
+      <pose>-121.9 43.44 0  0 0 0</pose>
+    </include>  
+    
+      <include>
+      <name>Clarificador2</name>ar
+      <uri>model://clarificador</uri>
+      <pose>-100.0 71.11 0  0 0 0</pose>
+    </include>  
+    
+      <include>
+      <name>Clarificador3</name>ar
+      <uri>model://clarificador</uri>
+      <pose>-121.9 71.11 0  0 0 0</pose>
+    </include>  
+  
+    <!------------------EDIFICIOS VARIOS ----------------------------->         
+      <include>
+      <name>Arbol1</name>
+      <uri>model://oak_tree</uri>
+      <pose>-92.8 -21.3 0  0 0 0</pose>
+    </include>    
+    
+      <include>
+      <name>Arbol2</name>
+      <uri>model://oak_tree</uri>
+      <pose>-92.8 -15.3 0  0 0 0</pose>
+    </include>    
+    
+      <include>
+      <name>Arbol3</name>
+      <uri>model://oak_tree</uri>
+      <pose>-92.8 -11.3 0  0 0 0</pose>
+    </include>    
+    
+      <include>
+      <name>CasaIris</name>
+      <uri>model://casa</uri>
+      <pose>-111.26 -23.81 0  0 0 0</pose>
+    </include>   
+    
+          <include>
+      <name>Casa21</name>
+      <uri>model://casaTipo2</uri>
+      <pose>-119.26 -50.41 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>Edificio1</name>
+      <uri>model://Edificio</uri>
+      <pose>-170.42 63.05 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>Edificio2</name>
+      <uri>model://Edificio</uri>
+      <pose>-155.82 63.05 0  0 0 0</pose>
+    </include> 
+    
+      <!------------------edificio DEPOSITO ----------------------------->
+      <include>
+      <name>Edificio25</name>
+      <uri>model://Edificio</uri>
+      <pose>-170.4 63.05 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>Edificio3</name>
+      <uri>model://Edificio</uri>
+      <pose>-200.5 4.5 0  0 0 0</pose>
+    </include> 
+    
+	<include>
+      <name>Deposito2Edificio</name>
+      <uri>model://deposito</uri>
+      <pose>-156 73.5 5  0 0 0</pose>
+    </include>  
+    
+	<include>
+      <name>DepositoEdificio3</name>
+      <uri>model://deposito</uri>
+      <pose>-151.5 73.5 5  0 0 0</pose>
+    </include>  
+         
+         
+      <include>
+      <name>Edificio3</name>
+      <uri>model://Edificio</uri>
+      <pose>-117 -48.5 0  0 0 0</pose>
+    </include> 
+    
+  <!------------------CLARIFICADORES ESQUINA----------------------------->
+  
+        <include>
+      <name>Clarificador4</name>ar
+      <uri>model://clarificador</uri>
+      <pose>-141.9 108.47 0  0 0 0</pose>
+    </include> 
+    
+       <include>
+      <name>Clarificador5</name>ar
+      <uri>model://clarificador</uri>
+      <pose>-166.9 108.47 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>Clarificador6</name>ar
+      <uri>model://clarificador</uri>
+      <pose>-191.9 108.47 0  0 0 0</pose>
+    </include> 
+  
+    
+         <!------------------ARBOLES ESQUINA----------------------------->
+    
+      <include>
+      <name>BosqueEsq1</name>
+      <uri>model://oak_tree</uri>
+   <pose>-216.67 -80.73 0  0 0 0</pose>
+    </include>   
+
+      <include>
+      <name>BosqueEsq2</name>
+      <uri>model://oak_tree</uri>
+   <pose>-207.67 -76.73 0  0 0 0</pose>
+    </include> 
+      <include>
+      <name>BosqueEsq3</name>
+      <uri>model://oak_tree</uri>
+   <pose>-212.67 -81.73 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>BosqueEsq5</name>
+      <uri>model://oak_tree</uri>
+   <pose>-212.67 -71.73 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>BosqueEsq6</name>
+      <uri>model://oak_tree</uri>
+   <pose>-217.67 -76.73 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>BosqueEsq7</name>
+      <uri>model://oak_tree</uri>
+      <pose>-212.67 -76.73 0  0 0 0</pose>
+    </include> 
+     
+      <include>
+      <name>BosqueEsq8</name>
+      <uri>model://oak_tree</uri>
+      <pose>-207.67 -70.73 0  0 0 0</pose>
+    </include>     
+    
+      <include>
+      <name>BosqueEsq9</name>
+      <uri>model://oak_tree</uri>
+      <pose>-216.67 -70.73 0  0 0 0</pose>
+    </include> 
+    
+      <include>
+      <name>BosqueEsq9</name>
+      <uri>model://oak_tree</uri>
+      <pose>-207.67 -80.73 0  0 0 0</pose>
+    </include> 
+        
+      <!------------------------Arquimedes BAJO----------------->
+         
+      <include>
+      <name>casaArquimedes</name>
+      <uri>model://casa</uri>
+      <pose>164.21 -45.24 0  0 0 1.57</pose>
+    </include>
+ 
+ 
+      <include>
+      <name>EdficioArquimedes</name>
+      <uri>model://casaTipo2</uri>
+      <pose>112.75 -48.1 0  0 0 0</pose>
+    </include>
+    
+    
+      <include>
+      <name>EdficioArquimedes2</name>
+      <uri>model://casa</uri>
+      <pose>112 -63.1 0  0 0 0</pose>
+    </include>
+     
+        <!--Arquimedes ABAJOP FIN-->
+        
+      <include>
+      <name>ParedArqAbajo</name>
+      <uri>model://ParedArquimedesPack</uri>
+      <pose>151.27 -50.85 0  0 0 0</pose>
+    </include>
+    
+      <include>
+      <name>Arquimedes1</name>
+      <uri>model://screwPack</uri>
+      <pose>144.5 -52.40 0  0 0 0</pose>
+    </include>
+        
+       <!--Arquimedes ARRIBA-->
+      
+      <include>
+      <name>ParedArqArriba</name>
+      <uri>model://ParedArquimedesPack</uri>
+      <pose>-156.8 -25.30 0  0 0 1.578</pose>
+    </include>     
+
+      <include>
+      <name>Arquimedes2</name>
+      <uri>model://screwPack</uri>
+      <pose>-155.13 -32.018 0  0 0 1.578</pose>
+    </include>      
+       
+ 	  <include>
+      <name>casaArquimedes2</name>
+      <uri>model://casa</uri>
+      <pose>-162.3 -17.7 0  0 0 0</pose>
+    </include>
+    
+ 	  <include>
+      <name>casaArquimedes2</name>
+      <uri>model://casa</uri>
+      <pose>-162.3 -17.7 0  0 0 0</pose>
+    </include>     
+
+	  <include>
+      <name>casaArquimedes2</name>
+      <uri>model://casa</uri>
+      <pose>-162.3 -17.7 0  0 0 0</pose>
+    </include>
+    
+	  <include>
+      <name>piscinaArquimedes</name>
+      <uri>model://piscinaenana</uri>
+      <pose>-163 -3.477 0  0 0 1.57</pose>
+    </include>
+    
+    
+         <include>
+      <name>Pozo3</name>
+      <uri>model://cosarara</uri>
+      <pose>-153  -47 0 0 0 0</pose>
+    </include>  
+    
+         <include>
+      <name>Pozo4</name>
+      <uri>model://cosarara</uri>
+      <pose>-158.77 -47 0  0 0 0</pose>
+    </include>  
+
+
+
+<!--------------------	Bosque Salida-----------2---------->
+
+      <include>
+      <name>Bosque</name>
+      <uri>model://oak_tree</uri>
+      <pose>-92.8 -15.3 0  0 0 0</pose>
+    </include> 
+
+<!--------------------	ROAD-----------2---------->
+
+	<road name="my_roa2d"> <!--IZQ IRIS-->
+      <width>6.0</width>
+      <point>-133.7 27.25 0.1</point>
+       <point>-134.75 27.05 0.1</point>
+      <point>-136.29 26.48 0.1</point>
+      <point>-137.07 24.2 0.1</point>
+      <point>-137.07 -24.2 0.1</point>
+      <point>-135.7 -27.67 0.1</point>
+      <point>-133.015 -30.28 0.1</point>
+      <point>-130.5 -30 0.1</point>
+      <point>10 -30 0.1</point>
+    </road>
+    
+      <road name="my_road3">  <!--DER IRIS-->
+      <width>6.0</width>
+      <point>-191 27 0.1</point>
+      <point>93 27 0.1</point>
+    </road>
+    
+     <road name="my_road3"> <!--ABAJO DEPURA-->
+      <width>6.0</width>
+      <point>193 -62.0 0.1</point>
+      <point>192.24 34.57 0.1</point>
+      <point>191.34 39.67 0.1</point>
+      <point>188.9 42.77 0.1</point>
+      <point>185.64 44.77 0.1</point>
+      <point>103.79 44.77 0.1</point>
+      <point>99.64 43 0.1</point>
+      <point>96.55 40.45 0.1</point>
+      <point>94.65 36.85 0.1</point>
+      <point>94 34.15 0.1</point>
+      <point>94 -73.38 0.1</point>
+      <point>93 -77.15 0.1</point>
+      <point>92 -80.17 0.1</point>
+      <point>90 -82.75 0.1</point>
+      <point>87 -83.28 0.1</point>
+      <point>24 -86.87 0.1</point>
+      <point>20 -87.22 0.1</point>
+      <point>17 -86.55 0.1</point>
+      <point>14 -84.77 0.1</point>
+      <point>13 -81.24 0.1</point>
+      <point>13 -75 0.1</point>
+      <point>13 45 0.1</point>
+      <point>12.75 46.6 0.1</point>
+      <point>9.91 49.81 0.1</point>
+      <point>4.4 51.3 0.1</point>  
+      <point>-83 51.9 0.1</point>     
+    </road>
+    
+       <road name="my_road5"> <!--rectacurva-->
+      <width>6.0</width>
+      <point>90 -82.75 0.1</point>
+      <point>182 -76.75 0.1</point>
+      <point>186 -73.35 0.1</point>
+      <point>190 -70.0 0.1</point>
+      <point>193 -64.4 0.1</point>
+      <point>193 -61.4 0.1</point>
+    </road>
+    
+         <road name="my_road3"> <!--ARRIBA IRIS-->
+      <width>6.0</width>
+      <point>-188.24 27 0.1</point>
+      <point>-188.24 -51.7 0.1</point>
+      <point>-186.6 -57 0.1</point>
+      <point>-185.9 -62 0.1</point>
+      <point>-181.6 -66.1 0.1</point>
+      <point>-177.5 -67 0.1</point>
+      <point>-91.5 -67 0.1</point>
+      <point>-87.5 -66.5 0.1</point>
+      <point>-85.05 -63.4 0.1</point>
+      <point>-84.5 -60 0.1</point>
+      <point>-84.5 80 0.1</point>
+      <point>-85 81 0.1</point> 
+      <point>-85.5 82 0.1</point>   
+      <point>-86.8 84.25 0.1</point> 
+      <point>-91.5 87 0.1</point>    
+      <point>-100 88.2 0.1</point> 
+      <point>-125 89.0 0.1</point> 
+      <point>-166 89 0.1</point>
+	  <point>-176.36 86.82 0.1</point>
+	  <point>-179.5 83.1 0.1</point>
+	  <point>-182.75 79 0.1</point>
+	  <point>-184.6 75.5 0.1</point>
+	  <point>-187.7 71.4 0.1</point>
+	  <point>-187.85 27 0.1</point>
+    </road>
+
+      <road name="my_road7"> <!--curva rara-->
+      <width>6.0</width>
+      <point>3.0 -30.0 0.2</point>
+      <point>3.0 -60.9 0.2</point>
+      <point>-14.0 -62.1 0.2</point>
+      <point>-55.0 -62.1 0.2</point>
+      <point>-82.0 -61.1 0.2</point>
+    </road> 
+    
+          <road name="my_road8"> <!--recta y-->
+      <width>6.0</width>
+      <point>-131.0 -30.0 0.1</point>
+      <point>-131.0 -66.5 0.1</point>
+
+    </road>     
+      <road name="my_road11"> <!--recta enana-->
+      <width>6.0</width>
+      <point>-137.4 88.91 0.1</point>
+      <point>-137.4 27 0.1</point>  
+    </road>  
+    
+    <road name="Salidas"> <!--Salida-->
+      <width>6.0</width>
+      <point>-229.0 310 0.2</point>
+      <point>-229 -99 0.2</point>
+      <point>-222.5 -105.4 0.2</point>
+      <point>-216.5 -108.5 0.2</point>
+	  <point>-208.5 -109.46 0.2</point>
+	  <point> 9 -110.46 0.2</point>
+	  <point> 310 -88.46 0.2</point>
+
+    </road>          
+    
+  </world>
+</sdf>
